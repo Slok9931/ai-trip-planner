@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <div className="p-3 shadow-sm flex justify-between items-center px-5">
       <a href="/">
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center cursor-pointer">
         <img src="/logo.png" className="h-16" />
         <h2 className="font-bold text-3xl font-serif">Trip Planner</h2>
       </div>
