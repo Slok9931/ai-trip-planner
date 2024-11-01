@@ -81,7 +81,7 @@ const Hero = () => {
         <DialogContent>
           <DialogHeader>
             <DialogDescription>
-              <img src="/logo.svg" alt="logo" />
+              <img src="/logo.png" alt="logo" />
               <h2 className="font-bold text-lg mt-7">Sign In with Google</h2>
               <p>Sign in to the app with Google authentication securely</p>
               <Button
