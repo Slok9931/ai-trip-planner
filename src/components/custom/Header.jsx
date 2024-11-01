@@ -52,10 +52,12 @@ const Header = () => {
   };
   return (
     <div className="p-3 shadow-sm flex justify-between items-center px-5">
+      <a href="/">
       <div className="flex gap-3 items-center">
         <img src="/logo.png" className="h-16" />
         <h2 className="font-bold text-3xl font-serif">Trip Planner</h2>
       </div>
+      </a>
       <div>
         {user ? (
           <div className="flex items-center gap-3">

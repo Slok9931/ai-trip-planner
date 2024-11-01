@@ -50,7 +50,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col items-center mx-32 md:mx-48 gap-9 mb-16">
+    <div className="flex flex-col items-center mx-24 md:mx-48 gap-9 mb-16">
       <h1 className="font-extrabold text-[60px] text-center mt-16">
         <span className="text-[#b542da]">
           Discover Your Next Adventure with AI:
@@ -72,7 +72,7 @@ const Hero = () => {
         </Button>
       </Link>
 
-      <div>
+      <div className="w-full">
         <img src="/mockups.png" alt="mockups" />
       </div>
       
