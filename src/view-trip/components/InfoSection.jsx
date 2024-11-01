@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { GetPlaceDetails, PHOTO_REF_URL } from "@/service/GlobalAPI";
 import React, { useEffect, useState } from "react";
-import { IoIosSend } from "react-icons/io";
 
 function InfoSection({ trip }) {
     useEffect(() => {
@@ -41,7 +40,6 @@ function InfoSection({ trip }) {
             </h2>
           </div>
         </div>
-        <Button><IoIosSend /></Button>
       </div>
     </div>
   );
